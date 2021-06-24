@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+
+html * {
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/*=========Cabeçalho do Site=========*/
+#cabecalho{
+    height: 9vh;
+    background-color: #1b1a1b15;
+    color:rgb(220, 220, 235);
+    font-size: 50px;
+    text-shadow: 0 2px rgb(123, 15, 224);
+    font-family: 'Lobster', cursive;
+}
+
+/*=========Conteúdo do Site=========*/
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo {
+   text-align: center;
+   color:#ffffff;
+}
+
+#paragrafo {
+   margin: 7vh 20vw 0;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: rgba(0, 0, 0, 0.397);  
+   border-radius: 15px;
+}
+
+#video {
+    margin: 7vh auto 20px;
+    width: 900px;
+    height: 507px;
+    border-top: 8px dashed #09b48f;
+    border-right: 8px dashed #805eff;
+    border-bottom: 8px dashed #dd0278;
+    border-left: 8px dashed #400071;
+    background-color: #ffffffde;
+    
+    border-radius: 2%;
+   
+}
+
+#video:hover {
+    border-radius: 3%;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%; */
+}
+#subtitulo {
+    margin-bottom: 10px;
+}
+
+#p-curiosidades {
+    margin: 0 10vw;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.411); 
+    border-radius: 10px;
+}
+
+/*=========Rodapé do Site=========*/
+
+#rodape {
+    margin-top: 35px;
+    height: 15vh;
+    background-color: #dd0faa41;
+    text-align: right;
+    padding: 30px;
+}
+
+.icones div{
+    display: inline-flex;
+}
+
+.icones img {
+    width: 60px;
+    margin-right: 7px;
+    cursor: pointer;  
+}
+
